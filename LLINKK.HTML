@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/LIN.CSS">
+    <title>TRABAJO</title>
+
+</head>
+<body>
+   <form action="/submit-form" method="post" >
+        <div class="form group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+    </form>
+        
+        
+        <div >
+            <form>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+        </div>
+        <div >
+            <p>sexo:</p>
+            <input type="radio" id="nombre" name="sexo" value="hombre"required>
+            <label for="hombre">hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer"required>
+            <label for="mujer">mujer</label>
+            <input type="radio" id="no definido" name="sexo" value="no definido"required>
+            <label for="no definido">no definido</label>
+        </div>
+<br>
+<div >
+<label for="email">correo electronico</label>
+<input type="email" id="email" name="email"required>
+</div>
+<br>
+
+       
+
+        <div >
+            <input type="checkbox" id="ofertas" name="ofertas">
+            <label for="ofertas">quiero ver algunas de las otras opciones</label>
+        </div>
+        <div >
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">has click si aceptas todos los terminos y condicione</label>
+        </div>
+        <br>
+        <br>
+
+        
+  <button type="submit">enviar</button>
+         
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+color: black;
+font-family: cursive;
+}
+header{
+    color: bisque;
+}
+
+label{
+    display: block;
+    margin-bottom: 0,5 rem;
+}
+input[type= "text"],
+input[type= "email"]
+button{
+    padding: 0,7rem;
+    font-size: 1rem;
+
+}
+button{
+    background-color: rgb(68, 0, 255);
+    color: aliceblue;
+    border: ridge;
+    padding: 0,7rem 1 rem;
+    cursor: pointer;
+}
